@@ -1,8 +1,6 @@
 body{
     width: 1440px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 0 auto;
 }
 nav{
     display: flex;
@@ -180,7 +178,8 @@ nav button a{
 }
 .same{
     width: 1140px;
-    align-self: center;
+    margin: 0 auto;
+    /* align-self: center; */
 }
 #inspiration{
     display: flex;
@@ -308,6 +307,7 @@ nav button a{
     letter-spacing: 0%;
     text-align: center;
 }
+
 #support{
     width: 1140px;
     height: 314px;
@@ -317,6 +317,7 @@ nav button a{
     background-position: center;
     
 }
+
 #support div{
     margin: 64px 48px;
     display: flex;
