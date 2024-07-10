@@ -38,7 +38,7 @@ nav button a{
 #banner{
     width: 1440px;
     height: 652px;
-    background-image: url(assets/Hero-bg.png);
+    background-image: url(../img/Hero-bg.png);
     display: flex;
     flex-direction: column;
 
@@ -313,7 +313,7 @@ nav button a{
     height: 314px;
     margin-top: 44px;
     border-radius: 16px;
-    background-image: url(assets/handshake.jpg);
+    background-image: url(../img/handshake.jpg);
     background-position: center;
     
 }
