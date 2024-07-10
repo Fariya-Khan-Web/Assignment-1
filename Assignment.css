@@ -32,6 +32,9 @@ nav button{
     opacity: 0.8;
     text-align: center;
 }
+nav button a{
+    text-decoration: none;
+}
 #banner{
     width: 1440px;
     height: 652px;
@@ -211,6 +214,9 @@ nav button{
     height: 550px;
     margin: 32px;
 }
+#target{
+     margin-top: 150px;
+}
 #target h2{ 
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -257,6 +263,7 @@ nav button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
 }
 #next h2{width: 852px;
     height: 39px;
@@ -303,7 +310,7 @@ nav button{
 }
 #support{
     width: 1140px;
-    height: 313px;
+    height: 314px;
     margin-top: 44px;
     border-radius: 16px;
     background-image: url(assets/handshake.jpg);
@@ -347,7 +354,23 @@ nav button{
     padding: 20px;
     text-align: center;
 }
+#support div button{width: 80px;
+    height: 23px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#info{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
 footer{
+    height: 100px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
     margin-top: 80px;
